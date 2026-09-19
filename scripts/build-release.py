@@ -9,7 +9,7 @@ import subprocess
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION=json.loads((ROOT/'package.json').read_text())['version']
+VERSION=json.loads((ROOT/'package.json').read_text(encoding="utf-8"))['version']
 OUTPUT=ROOT/'artifacts/release'
 
 def sha(data): return hashlib.sha256(data).hexdigest()
@@ -24,8 +24,8 @@ def archive(destination,entries):
 def main():
     for key in ['PORTAL_CONTENT_DIR','PORTAL_CONFIG','NEXT_PUBLIC_BASE_PATH']:
         if os.environ.get(key):raise SystemExit(f'Unset {key} before building the public release')
-    if not json.loads((ROOT/'portal.config.json').read_text())['demo']:raise SystemExit('Public packaging requires the fictional demo configuration')
-    paths=json.loads((ROOT/'release-files.json').read_text())
+    if not json.loads((ROOT/'portal.config.json').read_text(encoding="utf-8"))['demo']:raise SystemExit('Public packaging requires the fictional demo configuration')
+    paths=json.loads((ROOT/'release-files.json').read_text(encoding="utf-8"))
     if len(paths)!=len(set(paths)) or paths!=sorted(paths):raise SystemExit('Release file manifest must be sorted and unique')
     allowed=set(paths)
     for folder in ['src','content','public','templates','scripts','tests','docs','skills','packaging','third-party','.github']:
@@ -41,7 +41,7 @@ def main():
     subprocess.run(['node', str(ROOT/'node_modules/tsx/dist/cli.mjs'), str(ROOT/'scripts/check-build.ts')],cwd=ROOT,check=True)
     build=ROOT/'out'
     if not (build/'index.html').is_file():raise SystemExit('Run npm run build before packaging')
-    html=(build/'index.html').read_text()
+    html=(build/'index.html').read_text(encoding="utf-8")
     if 'Fictional demo.' not in html or '/demo/_next/' in html:raise SystemExit('Output is not the root-path fictional demo build')
     demo=[];build_records=[]
     for p in sorted(build.rglob('*')):
@@ -55,7 +55,7 @@ def main():
     source_file=OUTPUT/f'family-trip-portal-source-{VERSION}.zip';demo_file=OUTPUT/f'family-trip-portal-demo-{VERSION}.zip'
     archive(source_file,source);archive(demo_file,demo)
     provenance={'project':'family-trip-portal','version':VERSION,'source_files':records,'static_files':build_records,'source_manifest_sha256':sha(json.dumps(records,sort_keys=True,separators=(',',':')).encode()),'artifacts':{p.name:sha(p.read_bytes()) for p in [source_file,demo_file]}}
-    provenance_file=OUTPUT/f'family-trip-portal-provenance-{VERSION}.json';provenance_file.write_text(json.dumps(provenance,indent=2)+'\n')
-    (OUTPUT/'SHA256SUMS').write_text(''.join(f'{sha(p.read_bytes())}  {p.name}\n' for p in [source_file,demo_file,provenance_file]))
+    provenance_file=OUTPUT/f'family-trip-portal-provenance-{VERSION}.json';provenance_file.write_text(json.dumps(provenance,indent=2)+'\n',encoding='utf-8',newline='\n')
+    (OUTPUT/'SHA256SUMS').write_text(''.join(f'{sha(p.read_bytes())}  {p.name}\n' for p in [source_file,demo_file,provenance_file]),encoding='utf-8',newline='\n')
     print(f'Packaged {len(records)} allowlisted source files and {len(build_records)} static files. Four artifacts in artifacts/release/.')
 if __name__=='__main__':main()

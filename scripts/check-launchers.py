@@ -27,7 +27,7 @@ def check(archive, expected_name):
         project = folder / expected_name
         command = (["cmd", "/d", "/c", str(project / "Start Windows.cmd"), "--no-open"]
                    if os.name == "nt" else ["sh", str(project / "Start.command"), "--no-open"])
-        with (folder / "launcher.log").open("w+") as log:
+        with (folder / "launcher.log").open("w+", encoding="utf-8", errors="replace") as log:
             process = subprocess.Popen(command, cwd=project, stdin=subprocess.DEVNULL,
                                        stdout=log, stderr=subprocess.STDOUT,
                                        start_new_session=os.name != "nt")

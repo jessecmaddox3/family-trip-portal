@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+artifacts/
+output/
+.env*
+.DS_Store
+*.tsbuildinfo
+.vercel/
+private/
+
+.playwright/
+next-env.d.ts

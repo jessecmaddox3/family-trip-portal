@@ -1,0 +1,35 @@
+{
+  "year": 2034,
+  "name": "Cedar Bay 2034",
+  "tagline": "A little planning. A lot of porch time.",
+  "destination": "Cedar Bay",
+  "startDate": "2034-08-12",
+  "endDate": "2034-08-16",
+  "timeZone": "America/New_York",
+  "checkIn": "2034-08-12T16:00:00-04:00",
+  "checkOut": "2034-08-16T10:00:00-04:00",
+  "mealIntro": "Choose a cooking pair, then keep the menu simple enough to enjoy the evening.",
+  "mealNotes": "The organizer records menus and assignments here. Bring receipts if your own group chooses to split costs.",
+  "featuredEvent": {
+    "title": "Lantern story circle",
+    "description": "The fictional crew is bringing a short made-up story to share under paper lanterns. The archive shows how a portal can keep a special gathering beside the schedule.",
+    "url": "/history/"
+  },
+  "house": {
+    "name": "Paper Lantern Cottage",
+    "address": "An imaginary cottage in fictional Cedar Bay. No real address or booking.",
+    "beds": 5,
+    "maxGuests": 10,
+    "amenities": [
+      "Covered porch",
+      "Shared kitchen",
+      "Board-game shelf",
+      "Outdoor rinse station"
+    ],
+    "rules": [
+      "Leave sandy shoes by the door",
+      "Label anything in the shared fridge",
+      "Keep the porch quiet after 10 PM"
+    ]
+  }
+}

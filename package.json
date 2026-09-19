@@ -1,0 +1,44 @@
+{
+  "name": "family-trip-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate && next build && tsx scripts/stamp-build.ts",
+    "start": "node scripts/serve.mjs --dir out",
+    "lint": "eslint",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate-content.ts",
+    "fetch-tides": "tsx scripts/fetch-tides.ts",
+    "test:browser": "playwright test",
+    "format": "prettier --write src scripts tests docs skills packaging *.ts *.json *.mjs *.md .github",
+    "format:check": "prettier --check src scripts tests docs skills packaging *.ts *.json *.mjs *.md .github"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "0.5.1",
+    "next": "16.3.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "prettier": "3.8.1",
+    "tailwindcss": "^4",
+    "tsx": "4.23.13",
+    "typescript": "^5"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "module"
+}

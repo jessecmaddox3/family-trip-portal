@@ -1,0 +1,140 @@
+[
+  {
+    "id": "beach",
+    "activity": "beach",
+    "label": "Beach picnic",
+    "anchor": "H",
+    "selection": "all",
+    "segments": [
+      {
+        "startMinutes": -120,
+        "endMinutes": -30,
+        "quality": "good",
+        "reason": "An earlier picnic slot in this organizer's example plan."
+      },
+      {
+        "startMinutes": -30,
+        "endMinutes": 30,
+        "quality": "excellent",
+        "reason": "The preferred picnic slot, chosen for the group schedule."
+      },
+      {
+        "startMinutes": 30,
+        "endMinutes": 60,
+        "quality": "good",
+        "reason": "An alternate picnic slot."
+      }
+    ]
+  },
+  {
+    "id": "shelling",
+    "activity": "shelling",
+    "label": "Shell sketching",
+    "anchor": "L",
+    "selection": "all",
+    "segments": [
+      {
+        "startMinutes": -90,
+        "endMinutes": -15,
+        "quality": "good",
+        "reason": "Optional sketchbook time before the example low."
+      },
+      {
+        "startMinutes": -15,
+        "endMinutes": 15,
+        "quality": "excellent",
+        "reason": "The organizer's preferred sketchbook break."
+      },
+      {
+        "startMinutes": 15,
+        "endMinutes": 90,
+        "quality": "fair",
+        "reason": "A later sketchbook break if lunch runs long."
+      }
+    ]
+  },
+  {
+    "id": "paddle",
+    "activity": "kayaking",
+    "label": "Paddle planning check",
+    "anchor": "either",
+    "selection": "all",
+    "segments": [
+      {
+        "startMinutes": -30,
+        "endMinutes": 30,
+        "quality": "fair",
+        "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+      }
+    ]
+  },
+  {
+    "id": "fishing",
+    "activity": "fishing",
+    "label": "Fishing meetup",
+    "anchor": "H",
+    "selection": "all",
+    "segments": [
+      {
+        "startMinutes": -180,
+        "endMinutes": -60,
+        "quality": "good",
+        "reason": "A meetup preference only; check local conditions and rules."
+      }
+    ]
+  },
+  {
+    "id": "walk",
+    "activity": "nature-walk",
+    "label": "Cedar loop walk",
+    "anchor": "L",
+    "selection": "first-per-day",
+    "anchorHours": [
+      0,
+      12
+    ],
+    "weekdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "openHours": [
+      7,
+      18
+    ],
+    "segments": [
+      {
+        "startMinutes": -60,
+        "endMinutes": 60,
+        "quality": "good",
+        "reason": "The invented nature loop is closed Sundays; this example clips to opening hours."
+      }
+    ]
+  },
+  {
+    "id": "gathering",
+    "activity": "gathering",
+    "label": "Lantern story circle",
+    "anchor": "H",
+    "selection": "first-per-day",
+    "anchorHours": [
+      12,
+      24
+    ],
+    "dates": [
+      "2033-07-05"
+    ],
+    "segments": [
+      {
+        "startMinutes": -45,
+        "endMinutes": 90,
+        "quality": "excellent",
+        "reason": "An invented story circle. Its time follows this example rule, not a real event."
+      }
+    ],
+    "url": "/trip/2033/schedule/"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Harbor Spoon",
+    "category": "restaurant",
+    "description": "An invented soup-and-sandwich counter for a rainy lunch.",
+    "hours": "Example: 11 AM to 3 PM",
+    "tip": "Replace this entry with a place you have checked."
+  },
+  {
+    "name": "Crescent Cove",
+    "category": "beach",
+    "description": "An imaginary shoreline used to demonstrate a beach note.",
+    "tip": "This demo describes no real access or conditions."
+  },
+  {
+    "name": "Cedar Loop",
+    "category": "activity",
+    "description": "An invented short nature loop.",
+    "hours": "Example: 7 AM to 6 PM, closed Sundays"
+  },
+  {
+    "name": "Basket & Branch",
+    "category": "grocery",
+    "description": "An invented small shop for the grocery-list example."
+  },
+  {
+    "name": "How this guide works",
+    "category": "info",
+    "description": "The organizer edits this content file. Optional map, phone, hours and tip fields appear when provided."
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "year": 2034,
+    "name": "Lantern week",
+    "dates": "August 12 to 16",
+    "location": "Fictional Cedar Bay",
+    "highlight": "Paper lanterns, garden bowls and a deliberately slow morning.",
+    "accommodation": "Paper Lantern Cottage",
+    "accommodationType": "house",
+    "attendeeCount": {
+      "adults": 6,
+      "kids": 2
+    },
+    "meals": [
+      {
+        "night": "Welcome",
+        "chefs": "Noor and Ari",
+        "dish": "A build-your-own supper"
+      }
+    ],
+    "mealFormat": "casual",
+    "activities": [
+      "Kite workshop",
+      "Story circle"
+    ],
+    "photoAlbumUrl": "/trip/2034/photos/",
+    "notes": "An independently invented demonstration."
+  },
+  {
+    "year": 2033,
+    "name": "The kite experiment",
+    "dates": "July 3 to 6",
+    "location": "Fictional Cedar Bay",
+    "highlight": "Most of the kites flew. All of the sandwiches disappeared.",
+    "accommodation": "Paper Lantern Cottage",
+    "accommodationType": "house",
+    "attendeeCount": {
+      "adults": 6,
+      "kids": 2
+    },
+    "meals": [
+      {
+        "night": "Welcome",
+        "chefs": "Noor and Ari",
+        "dish": "A shared main dish, fruit and greens"
+      }
+    ],
+    "mealFormat": "casual",
+    "golf": {
+      "course": "Imaginary putting lawn",
+      "players": 4,
+      "costPerPlayer": 0
+    },
+    "activities": [
+      "Paper kites",
+      "Porch drawing"
+    ],
+    "photoAlbumUrl": "/trip/2033/photos/"
+  },
+  {
+    "year": 2031,
+    "name": "The first picnic",
+    "dates": "One imaginary afternoon",
+    "location": "Fictional Willow Meadow",
+    "highlight": "The crew brought a picnic and invented a reason to do it again.",
+    "meals": [
+      {
+        "night": "Picnic",
+        "chefs": "Everyone",
+        "dish": "Whatever fit in the baskets"
+      }
+    ],
+    "mealFormat": "casual",
+    "notes": "This older memory has no detailed trip folder. Its card should not link to a missing year."
+  }
+]

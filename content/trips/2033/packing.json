@@ -1,0 +1,43 @@
+[
+  {
+    "id": "kite",
+    "item": "Kite-making supplies",
+    "category": "Shared fun",
+    "claimedBy": "Ellis Rowan",
+    "quantity": 1,
+    "notes": "Paper, string and washable markers."
+  },
+  {
+    "id": "games",
+    "item": "Small board games",
+    "category": "Shared fun",
+    "quantity": 2
+  },
+  {
+    "id": "towels",
+    "item": "Beach towels",
+    "category": "Personal bags",
+    "quantity": 8,
+    "notes": "Everyone packs their own."
+  },
+  {
+    "id": "coffee",
+    "item": "Coffee and tea",
+    "category": "Kitchen",
+    "claimedBy": "Noor Vale",
+    "quantity": 1
+  },
+  {
+    "id": "lanterns",
+    "item": "Battery paper lanterns",
+    "category": "Shared fun",
+    "claimedBy": "Sage Fern",
+    "quantity": 3
+  },
+  {
+    "id": "first-aid",
+    "item": "First-aid kit",
+    "category": "Shared supplies",
+    "quantity": 1
+  }
+]

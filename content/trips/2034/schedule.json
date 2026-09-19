@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2034-08-12",
+    "dayOfWeek": "Saturday",
+    "label": "Arrive and settle in",
+    "events": [
+      {
+        "time": "4:00 PM",
+        "title": "Cottage check-in",
+        "description": "Find a room and put the kettle on.",
+        "location": "Paper Lantern Cottage",
+        "type": "travel",
+        "highlight": true
+      },
+      {
+        "time": "6:30 PM",
+        "title": "Build-your-own supper",
+        "description": "The welcome board is ready in the kitchen.",
+        "type": "meal"
+      }
+    ]
+  },
+  {
+    "date": "2034-08-13",
+    "dayOfWeek": "Sunday",
+    "label": "Choose your own pace",
+    "events": [
+      {
+        "time": "9:00 AM",
+        "title": "Slow morning",
+        "description": "Coffee, drawing and an optional wander.",
+        "type": "free"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Paper kite workshop",
+        "description": "Try a new design on the lawn, if conditions suit.",
+        "location": "Cottage lawn",
+        "type": "activity"
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Shared dinner",
+        "description": "See the meal plan for the cooking team and dietary notes.",
+        "type": "meal"
+      }
+    ]
+  },
+  {
+    "date": "2034-08-14",
+    "dayOfWeek": "Monday",
+    "label": "Stories by lantern light",
+    "events": [
+      {
+        "time": "9:00 AM",
+        "title": "Slow morning",
+        "description": "Coffee, drawing and an optional wander.",
+        "type": "free"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Paper kite workshop",
+        "description": "Try a new design on the lawn, if conditions suit.",
+        "location": "Cottage lawn",
+        "type": "activity"
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Shared dinner",
+        "description": "See the meal plan for the cooking team and dietary notes.",
+        "type": "meal"
+      },
+      {
+        "time": "After dinner",
+        "title": "Lantern story circle",
+        "description": "Share an invented story beside the paper lanterns.",
+        "type": "ceremony",
+        "highlight": true
+      }
+    ]
+  },
+  {
+    "date": "2034-08-15",
+    "dayOfWeek": "Tuesday",
+    "label": "Choose your own pace",
+    "events": [
+      {
+        "time": "9:00 AM",
+        "title": "Slow morning",
+        "description": "Coffee, drawing and an optional wander.",
+        "type": "free"
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Paper kite workshop",
+        "description": "Try a new design on the lawn, if conditions suit.",
+        "location": "Cottage lawn",
+        "type": "activity"
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Shared dinner",
+        "description": "See the meal plan for the cooking team and dietary notes.",
+        "type": "meal"
+      }
+    ]
+  },
+  {
+    "date": "2034-08-16",
+    "dayOfWeek": "Wednesday",
+    "label": "One last breakfast",
+    "events": [
+      {
+        "time": "8:00 AM",
+        "title": "Leftover breakfast",
+        "description": "Use what is left and share a favorite imaginary memory.",
+        "type": "meal"
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Check-out",
+        "description": "Sweep the porch and close the cottage.",
+        "type": "travel",
+        "highlight": true
+      }
+    ]
+  }
+]

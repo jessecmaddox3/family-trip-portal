@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Noor Vale",
+    "family": "Vale group",
+    "attendance": "confirmed",
+    "role": "Welcome board",
+    "arrivalDate": "2033-07-03",
+    "departureDate": "2033-07-06"
+  },
+  {
+    "name": "Ari Vale",
+    "family": "Vale group",
+    "attendance": "confirmed",
+    "arrivalDate": "2033-07-03",
+    "departureDate": "2033-07-06"
+  },
+  {
+    "name": "Kit Vale",
+    "family": "Vale group",
+    "attendance": "confirmed",
+    "role": "Junior kite tester"
+  },
+  {
+    "name": "Ellis Rowan",
+    "family": "Rowan group",
+    "attendance": "confirmed",
+    "role": "Kite workshop",
+    "arrivalDate": "2033-07-03",
+    "departureDate": "2033-07-06"
+  },
+  {
+    "name": "Quinn Rowan",
+    "family": "Rowan group",
+    "attendance": "confirmed",
+    "dietaryNotes": "Fictional example: dressing served separately."
+  },
+  {
+    "name": "Wren Rowan",
+    "family": "Rowan group",
+    "attendance": "confirmed",
+    "role": "Junior story collector"
+  },
+  {
+    "name": "Sage Fern",
+    "family": "Fern group",
+    "attendance": "confirmed",
+    "role": "Lantern setup",
+    "arrivalDate": "2033-07-03",
+    "departureDate": "2033-07-06"
+  },
+  {
+    "name": "Remy Fern",
+    "family": "Fern group",
+    "attendance": "tentative",
+    "notes": "Waiting on a fictional work schedule."
+  }
+]

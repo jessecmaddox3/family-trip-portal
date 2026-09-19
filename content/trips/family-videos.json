@@ -1,0 +1,37 @@
+{
+  "intro": "A sample archive with a locally stored motion card. No real home movies, people or accounts are included.",
+  "memorialIntro": "This optional section demonstrates a remembrance card using a wholly invented person and story.",
+  "channel": {
+    "name": "the sample video",
+    "url": "/media/lantern-loop.webm"
+  },
+  "playlists": [
+    {
+      "id": "lanterns",
+      "name": "Lantern workshop",
+      "person": "The fictional crew",
+      "relationship": "Shared example",
+      "videoCount": 1,
+      "url": "/media/lantern-loop.webm"
+    }
+  ],
+  "beachVideos": [
+    {
+      "id": "motion-card",
+      "title": "The lantern motion card",
+      "date": "2033-07-04",
+      "year": 2033,
+      "url": "/media/lantern-loop.webm",
+      "thumbnail": "/media/cedar-bay.png",
+      "people": []
+    }
+  ],
+  "memorial": [
+    {
+      "name": "Mira Meadow",
+      "relationship": "Invented community storyteller",
+      "note": "In this fictional example, Mira taught the crew to leave room for an unfinished story.",
+      "videoCount": 0
+    }
+  ]
+}

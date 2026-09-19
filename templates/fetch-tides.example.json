@@ -1,0 +1,10 @@
+{
+  "stationName": "Your verified NOAA station",
+  "stationId": "REPLACE_WITH_VERIFIED_STATION_ID",
+  "timeZone": "America/New_York",
+  "start": "2034-08-12",
+  "end": "2034-08-16",
+  "units": "ft",
+  "datum": "MLLW",
+  "rules": []
+}

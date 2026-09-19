@@ -1,0 +1,25 @@
+[
+  {
+    "id": "lanterns",
+    "name": "One small story",
+    "description": "Bring an invented story, or help someone finish theirs.",
+    "yearsActive": "Fictional tradition since 2031",
+    "icon": "✨",
+    "details": "A short story is enough. Passing is always welcome.",
+    "relatedLink": "/history/"
+  },
+  {
+    "id": "sketchbook",
+    "name": "The porch sketchbook",
+    "description": "Leave a drawing for the next imaginary guest.",
+    "yearsActive": "Every example trip",
+    "icon": "🎨"
+  },
+  {
+    "id": "leftovers",
+    "name": "Last-day breakfast",
+    "description": "Make the remaining groceries into one shared breakfast.",
+    "yearsActive": "Whenever the fridge allows",
+    "icon": "🥣"
+  }
+]

@@ -1,0 +1,2423 @@
+{
+  "station": "Fictional Cedar Bay",
+  "timeZone": "America/New_York",
+  "units": "ft",
+  "datum": "fictional zero",
+  "generated": "2030-01-01T00:00:00Z",
+  "dateRange": {
+    "start": "2033-07-03",
+    "end": "2033-07-06"
+  },
+  "highLowSource": {
+    "kind": "fictional",
+    "description": "Invented cosine wave for interface practice. Not predictions for any real place."
+  },
+  "curveSource": {
+    "kind": "fictional",
+    "description": "Invented cosine wave for interface practice. Not predictions for any real place."
+  },
+  "curveIntervalMinutes": 15,
+  "days": [
+    {
+      "date": "2033-07-03",
+      "dayOfWeek": "Sunday",
+      "label": "Jul 3",
+      "sunrise": 2003998800000,
+      "sunset": 2004046800000,
+      "sunSource": {
+        "kind": "fictional",
+        "description": "Invented sun and moon example, not an astronomical calculation."
+      },
+      "moonPhase": "Invented waxing-crescent example",
+      "highLow": [
+        {
+          "timestamp": 2003981400000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004004800000,
+          "height": -0.4,
+          "type": "L"
+        },
+        {
+          "timestamp": 2004028200000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004051600000,
+          "height": -0.4,
+          "type": "L"
+        }
+      ],
+      "curve": [
+        {
+          "timestamp": 2003976000000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2003976900000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2003977800000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2003978700000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2003979600000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2003980500000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2003981400000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2003982300000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2003983200000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2003984100000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2003985000000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2003985900000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2003986800000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2003987700000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2003988600000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2003989500000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2003990400000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2003991300000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2003992200000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2003993100000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2003994000000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2003994900000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2003995800000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2003996700000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2003997600000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2003998500000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2003999400000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004000300000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004001200000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004002100000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004003000000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004003900000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004004800000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004005700000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004006600000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004007500000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004008400000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004009300000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004010200000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004011100000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004012000000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004012900000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004013800000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004014700000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004015600000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004016500000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004017400000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004018300000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004019200000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004020100000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004021000000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004021900000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004022800000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004023700000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004024600000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004025500000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004026400000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004027300000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004028200000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004029100000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004030000000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004030900000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004031800000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004032700000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004033600000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004034500000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004035400000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004036300000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004037200000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004038100000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004039000000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004039900000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004040800000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004041700000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004042600000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004043500000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004044400000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004045300000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004046200000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004047100000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004048000000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004048900000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004049800000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004050700000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004051600000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004052500000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004053400000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004054300000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004055200000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004056100000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004057000000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004057900000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004058800000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004059700000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004060600000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004061500000,
+          "height": 1.121
+        }
+      ],
+      "activities": [
+        {
+          "id": "fishing:2003981400000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2003976000000,
+          "endTimestamp": 2003977800000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2003981400000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2003976000000,
+          "endTimestamp": 2003979600000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2003981400000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2003979600000,
+          "endTimestamp": 2003983200000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2003981400000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2003979600000,
+          "endTimestamp": 2003983200000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2003981400000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2003983200000,
+          "endTimestamp": 2003985000000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004004800000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2003999400000,
+          "endTimestamp": 2004003900000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004004800000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004003000000,
+          "endTimestamp": 2004006600000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004004800000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004003900000,
+          "endTimestamp": 2004005700000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004004800000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004005700000,
+          "endTimestamp": 2004010200000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004028200000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004017400000,
+          "endTimestamp": 2004024600000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004028200000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004021000000,
+          "endTimestamp": 2004026400000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004028200000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004026400000,
+          "endTimestamp": 2004030000000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004028200000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004026400000,
+          "endTimestamp": 2004030000000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004028200000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004030000000,
+          "endTimestamp": 2004031800000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004051600000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004046200000,
+          "endTimestamp": 2004050700000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004051600000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004049800000,
+          "endTimestamp": 2004053400000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004051600000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004050700000,
+          "endTimestamp": 2004052500000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004051600000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004052500000,
+          "endTimestamp": 2004057000000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        }
+      ]
+    },
+    {
+      "date": "2033-07-04",
+      "dayOfWeek": "Monday",
+      "label": "Jul 4",
+      "sunrise": 2004085200000,
+      "sunset": 2004133200000,
+      "sunSource": {
+        "kind": "fictional",
+        "description": "Invented sun and moon example, not an astronomical calculation."
+      },
+      "moonPhase": "Invented waxing-crescent example",
+      "highLow": [
+        {
+          "timestamp": 2004075000000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004098400000,
+          "height": -0.4,
+          "type": "L"
+        },
+        {
+          "timestamp": 2004121800000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004145200000,
+          "height": -0.4,
+          "type": "L"
+        }
+      ],
+      "curve": [
+        {
+          "timestamp": 2004062400000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004063300000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004064200000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004065100000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004066000000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004066900000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004067800000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004068700000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004069600000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004070500000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004071400000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004072300000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004073200000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004074100000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004075000000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004075900000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004076800000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004077700000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004078600000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004079500000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004080400000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004081300000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004082200000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004083100000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004084000000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004084900000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004085800000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004086700000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004087600000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004088500000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004089400000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004090300000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004091200000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004092100000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004093000000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004093900000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004094800000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004095700000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004096600000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004097500000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004098400000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004099300000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004100200000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004101100000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004102000000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004102900000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004103800000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004104700000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004105600000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004106500000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004107400000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004108300000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004109200000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004110100000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004111000000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004111900000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004112800000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004113700000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004114600000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004115500000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004116400000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004117300000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004118200000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004119100000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004120000000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004120900000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004121800000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004122700000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004123600000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004124500000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004125400000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004126300000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004127200000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004128100000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004129000000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004129900000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004130800000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004131700000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004132600000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004133500000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004134400000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004135300000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004136200000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004137100000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004138000000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004138900000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004139800000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004140700000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004141600000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004142500000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004143400000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004144300000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004145200000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004146100000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004147000000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004147900000,
+          "height": -0.27
+        }
+      ],
+      "activities": [
+        {
+          "id": "fishing:2004075000000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004064200000,
+          "endTimestamp": 2004071400000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004075000000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004067800000,
+          "endTimestamp": 2004073200000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004075000000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004073200000,
+          "endTimestamp": 2004076800000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004075000000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004073200000,
+          "endTimestamp": 2004076800000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004075000000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004076800000,
+          "endTimestamp": 2004078600000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004098400000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004093000000,
+          "endTimestamp": 2004097500000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "walk:2004098400000:0",
+          "ruleId": "walk",
+          "activity": "nature-walk",
+          "label": "Cedar loop walk",
+          "startTimestamp": 2004094800000,
+          "endTimestamp": 2004102000000,
+          "quality": "good",
+          "reason": "The invented nature loop is closed Sundays; this example clips to opening hours."
+        },
+        {
+          "id": "paddle:2004098400000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004096600000,
+          "endTimestamp": 2004100200000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004098400000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004097500000,
+          "endTimestamp": 2004099300000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004098400000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004099300000,
+          "endTimestamp": 2004103800000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004121800000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004111000000,
+          "endTimestamp": 2004118200000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004121800000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004114600000,
+          "endTimestamp": 2004120000000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004121800000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004120000000,
+          "endTimestamp": 2004123600000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004121800000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004120000000,
+          "endTimestamp": 2004123600000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004121800000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004123600000,
+          "endTimestamp": 2004125400000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004145200000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004139800000,
+          "endTimestamp": 2004144300000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004145200000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004143400000,
+          "endTimestamp": 2004147000000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004145200000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004144300000,
+          "endTimestamp": 2004146100000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004145200000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004146100000,
+          "endTimestamp": 2004148800000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        }
+      ]
+    },
+    {
+      "date": "2033-07-05",
+      "dayOfWeek": "Tuesday",
+      "label": "Jul 5",
+      "sunrise": 2004171600000,
+      "sunset": 2004219600000,
+      "sunSource": {
+        "kind": "fictional",
+        "description": "Invented sun and moon example, not an astronomical calculation."
+      },
+      "moonPhase": "Invented waxing-crescent example",
+      "highLow": [
+        {
+          "timestamp": 2004168600000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004192000000,
+          "height": -0.4,
+          "type": "L"
+        },
+        {
+          "timestamp": 2004215400000,
+          "height": 3.6,
+          "type": "H"
+        }
+      ],
+      "curve": [
+        {
+          "timestamp": 2004148800000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004149700000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004150600000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004151500000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004152400000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004153300000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004154200000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004155100000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004156000000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004156900000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004157800000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004158700000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004159600000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004160500000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004161400000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004162300000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004163200000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004164100000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004165000000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004165900000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004166800000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004167700000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004168600000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004169500000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004170400000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004171300000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004172200000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004173100000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004174000000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004174900000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004175800000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004176700000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004177600000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004178500000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004179400000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004180300000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004181200000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004182100000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004183000000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004183900000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004184800000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004185700000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004186600000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004187500000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004188400000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004189300000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004190200000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004191100000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004192000000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004192900000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004193800000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004194700000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004195600000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004196500000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004197400000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004198300000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004199200000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004200100000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004201000000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004201900000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004202800000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004203700000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004204600000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004205500000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004206400000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004207300000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004208200000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004209100000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004210000000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004210900000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004211800000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004212700000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004213600000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004214500000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004215400000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004216300000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004217200000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004218100000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004219000000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004219900000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004220800000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004221700000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004222600000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004223500000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004224400000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004225300000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004226200000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004227100000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004228000000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004228900000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004229800000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004230700000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004231600000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004232500000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004233400000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004234300000,
+          "height": -0.046
+        }
+      ],
+      "activities": [
+        {
+          "id": "shelling:2004145200000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004148800000,
+          "endTimestamp": 2004150600000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004168600000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004157800000,
+          "endTimestamp": 2004165000000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004168600000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004161400000,
+          "endTimestamp": 2004166800000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004168600000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004166800000,
+          "endTimestamp": 2004170400000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004168600000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004166800000,
+          "endTimestamp": 2004170400000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004168600000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004170400000,
+          "endTimestamp": 2004172200000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004192000000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004186600000,
+          "endTimestamp": 2004191100000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004192000000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004190200000,
+          "endTimestamp": 2004193800000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004192000000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004191100000,
+          "endTimestamp": 2004192900000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004192000000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004192900000,
+          "endTimestamp": 2004197400000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004215400000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004204600000,
+          "endTimestamp": 2004211800000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004215400000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004208200000,
+          "endTimestamp": 2004213600000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "gathering:2004215400000:0",
+          "ruleId": "gathering",
+          "activity": "gathering",
+          "label": "Lantern story circle",
+          "startTimestamp": 2004212700000,
+          "endTimestamp": 2004220800000,
+          "quality": "excellent",
+          "reason": "An invented story circle. Its time follows this example rule, not a real event.",
+          "url": "/trip/2033/schedule/"
+        },
+        {
+          "id": "beach:2004215400000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004213600000,
+          "endTimestamp": 2004217200000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004215400000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004213600000,
+          "endTimestamp": 2004217200000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004215400000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004217200000,
+          "endTimestamp": 2004219000000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004238800000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004233400000,
+          "endTimestamp": 2004235200000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        }
+      ]
+    },
+    {
+      "date": "2033-07-06",
+      "dayOfWeek": "Wednesday",
+      "label": "Jul 6",
+      "sunSource": {
+        "kind": "unavailable",
+        "description": "No sun or moon data in this example day."
+      },
+      "highLow": [
+        {
+          "timestamp": 2004238800000,
+          "height": -0.4,
+          "type": "L"
+        },
+        {
+          "timestamp": 2004262200000,
+          "height": 3.6,
+          "type": "H"
+        },
+        {
+          "timestamp": 2004285600000,
+          "height": -0.4,
+          "type": "L"
+        },
+        {
+          "timestamp": 2004309000000,
+          "height": 3.6,
+          "type": "H"
+        }
+      ],
+      "curve": [
+        {
+          "timestamp": 2004235200000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004236100000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004237000000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004237900000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004238800000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004239700000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004240600000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004241500000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004242400000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004243300000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004244200000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004245100000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004246000000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004246900000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004247800000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004248700000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004249600000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004250500000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004251400000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004252300000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004253200000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004254100000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004255000000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004255900000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004256800000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004257700000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004258600000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004259500000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004260400000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004261300000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004262200000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004263100000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004264000000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004264900000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004265800000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004266700000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004267600000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004268500000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004269400000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004270300000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004271200000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004272100000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004273000000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004273900000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004274800000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004275700000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004276600000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004277500000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004278400000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004279300000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004280200000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004281100000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004282000000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004282900000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004283800000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004284700000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004285600000,
+          "height": -0.4
+        },
+        {
+          "timestamp": 2004286500000,
+          "height": -0.385
+        },
+        {
+          "timestamp": 2004287400000,
+          "height": -0.342
+        },
+        {
+          "timestamp": 2004288300000,
+          "height": -0.27
+        },
+        {
+          "timestamp": 2004289200000,
+          "height": -0.171
+        },
+        {
+          "timestamp": 2004290100000,
+          "height": -0.046
+        },
+        {
+          "timestamp": 2004291000000,
+          "height": 0.103
+        },
+        {
+          "timestamp": 2004291900000,
+          "height": 0.274
+        },
+        {
+          "timestamp": 2004292800000,
+          "height": 0.464
+        },
+        {
+          "timestamp": 2004293700000,
+          "height": 0.671
+        },
+        {
+          "timestamp": 2004294600000,
+          "height": 0.891
+        },
+        {
+          "timestamp": 2004295500000,
+          "height": 1.121
+        },
+        {
+          "timestamp": 2004296400000,
+          "height": 1.359
+        },
+        {
+          "timestamp": 2004297300000,
+          "height": 1.6
+        },
+        {
+          "timestamp": 2004298200000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004299100000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004300000000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004300900000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004301800000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004302700000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004303600000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004304500000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004305400000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004306300000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004307200000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004308100000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004309000000,
+          "height": 3.6
+        },
+        {
+          "timestamp": 2004309900000,
+          "height": 3.585
+        },
+        {
+          "timestamp": 2004310800000,
+          "height": 3.542
+        },
+        {
+          "timestamp": 2004311700000,
+          "height": 3.47
+        },
+        {
+          "timestamp": 2004312600000,
+          "height": 3.371
+        },
+        {
+          "timestamp": 2004313500000,
+          "height": 3.246
+        },
+        {
+          "timestamp": 2004314400000,
+          "height": 3.097
+        },
+        {
+          "timestamp": 2004315300000,
+          "height": 2.926
+        },
+        {
+          "timestamp": 2004316200000,
+          "height": 2.736
+        },
+        {
+          "timestamp": 2004317100000,
+          "height": 2.529
+        },
+        {
+          "timestamp": 2004318000000,
+          "height": 2.309
+        },
+        {
+          "timestamp": 2004318900000,
+          "height": 2.079
+        },
+        {
+          "timestamp": 2004319800000,
+          "height": 1.841
+        },
+        {
+          "timestamp": 2004320700000,
+          "height": 1.6
+        }
+      ],
+      "activities": [
+        {
+          "id": "shelling:2004238800000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004235200000,
+          "endTimestamp": 2004237900000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004238800000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004237000000,
+          "endTimestamp": 2004240600000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004238800000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004237900000,
+          "endTimestamp": 2004239700000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004238800000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004239700000,
+          "endTimestamp": 2004244200000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004262200000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004251400000,
+          "endTimestamp": 2004258600000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004262200000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004255000000,
+          "endTimestamp": 2004260400000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004262200000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004260400000,
+          "endTimestamp": 2004264000000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004262200000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004260400000,
+          "endTimestamp": 2004264000000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004262200000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004264000000,
+          "endTimestamp": 2004265800000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        },
+        {
+          "id": "shelling:2004285600000:0",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004280200000,
+          "endTimestamp": 2004284700000,
+          "quality": "good",
+          "reason": "Optional sketchbook time before the example low."
+        },
+        {
+          "id": "paddle:2004285600000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004283800000,
+          "endTimestamp": 2004287400000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "shelling:2004285600000:1",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004284700000,
+          "endTimestamp": 2004286500000,
+          "quality": "excellent",
+          "reason": "The organizer's preferred sketchbook break."
+        },
+        {
+          "id": "shelling:2004285600000:2",
+          "ruleId": "shelling",
+          "activity": "shelling",
+          "label": "Shell sketching",
+          "startTimestamp": 2004286500000,
+          "endTimestamp": 2004291000000,
+          "quality": "fair",
+          "reason": "A later sketchbook break if lunch runs long."
+        },
+        {
+          "id": "fishing:2004309000000:0",
+          "ruleId": "fishing",
+          "activity": "fishing",
+          "label": "Fishing meetup",
+          "startTimestamp": 2004298200000,
+          "endTimestamp": 2004305400000,
+          "quality": "good",
+          "reason": "A meetup preference only; check local conditions and rules."
+        },
+        {
+          "id": "beach:2004309000000:0",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004301800000,
+          "endTimestamp": 2004307200000,
+          "quality": "good",
+          "reason": "An earlier picnic slot in this organizer's example plan."
+        },
+        {
+          "id": "beach:2004309000000:1",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004307200000,
+          "endTimestamp": 2004310800000,
+          "quality": "excellent",
+          "reason": "The preferred picnic slot, chosen for the group schedule."
+        },
+        {
+          "id": "paddle:2004309000000:0",
+          "ruleId": "paddle",
+          "activity": "kayaking",
+          "label": "Paddle planning check",
+          "startTimestamp": 2004307200000,
+          "endTimestamp": 2004310800000,
+          "quality": "fair",
+          "reason": "A reminder to check weather, access and actual currents. Tide height does not predict slack water."
+        },
+        {
+          "id": "beach:2004309000000:2",
+          "ruleId": "beach",
+          "activity": "beach",
+          "label": "Beach picnic",
+          "startTimestamp": 2004310800000,
+          "endTimestamp": 2004312600000,
+          "quality": "good",
+          "reason": "An alternate picnic slot."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+artifacts
+third-party
+package-lock.json
+release-files.json
+*.ttf
+*.png
+*.webm
+*.py
+*.command
+*.cmd
+*.txt
+*.vtt
+LICENSE

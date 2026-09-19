@@ -1,0 +1,35 @@
+[
+  {
+    "type": "photo",
+    "src": "/media/cedar-bay.png",
+    "alt": "AI-generated imaginary cove and cottage",
+    "year": 2034,
+    "caption": "Cedar Bay exists only in this demo.",
+    "credit": "Generated with ChatGPT; fictional scenery."
+  },
+  {
+    "type": "photo",
+    "src": "/media/trip-illustration.png",
+    "alt": "Illustrated trip scrapbook with cottage, calendar and dinner table",
+    "year": 2034,
+    "caption": "A place for the plan and the memories.",
+    "credit": "Original ChatGPT-generated project illustration."
+  },
+  {
+    "type": "video",
+    "src": "/media/lantern-loop.webm",
+    "poster": "/media/cedar-bay.png",
+    "captions": "/media/lantern-loop.vtt",
+    "alt": "A silent original animated color-card demonstration",
+    "year": 2034,
+    "caption": "A local video example. No family footage.",
+    "credit": "Original synthetic motion card; silent."
+  },
+  {
+    "type": "album-link",
+    "alt": "The fictional 2033 album",
+    "year": 2033,
+    "caption": "Try linking a previous trip's gallery.",
+    "externalUrl": "/trip/2033/photos/"
+  }
+]

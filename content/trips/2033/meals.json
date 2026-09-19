@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2033-07-03",
+    "dayOfWeek": "Sunday",
+    "theme": "Welcome board",
+    "chefs": [
+      "Noor Vale",
+      "Ari Vale"
+    ],
+    "menu": [
+      "A shared main dish",
+      "Seasonal fruit",
+      "Something crisp and green"
+    ],
+    "dietaryNotes": [],
+    "headcount": {
+      "adults": 6,
+      "kids": 2
+    }
+  },
+  {
+    "date": "2033-07-04",
+    "dayOfWeek": "Monday",
+    "theme": "Garden bowls",
+    "chefs": [
+      "Ellis Rowan",
+      "Quinn Rowan"
+    ],
+    "menu": [
+      "Roasted vegetables",
+      "Rice and beans",
+      "Lemon dressing"
+    ],
+    "dietaryNotes": [
+      "Keep the dressing separate for the fictional allergy example."
+    ],
+    "headcount": {
+      "adults": 6,
+      "kids": 2
+    }
+  },
+  {
+    "date": "2033-07-05",
+    "dayOfWeek": "Tuesday",
+    "theme": "Flatbread workshop",
+    "chefs": [],
+    "menu": [
+      "A shared main dish",
+      "Seasonal fruit",
+      "Something crisp and green"
+    ],
+    "dietaryNotes": [],
+    "headcount": {
+      "adults": 6,
+      "kids": 2
+    }
+  }
+]

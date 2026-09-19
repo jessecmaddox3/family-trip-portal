@@ -1,0 +1,35 @@
+{
+  "year": 2033,
+  "name": "Cedar Bay 2033",
+  "tagline": "The year of the homemade kites.",
+  "destination": "Cedar Bay",
+  "startDate": "2033-07-03",
+  "endDate": "2033-07-06",
+  "timeZone": "America/New_York",
+  "checkIn": "2033-07-03T16:00:00-04:00",
+  "checkOut": "2033-07-06T10:00:00-04:00",
+  "mealIntro": "Choose a cooking pair, then keep the menu simple enough to enjoy the evening.",
+  "mealNotes": "The organizer records menus and assignments here. Bring receipts if your own group chooses to split costs.",
+  "featuredEvent": {
+    "title": "Lantern story circle",
+    "description": "The fictional crew is bringing a short made-up story to share under paper lanterns. The archive shows how a portal can keep a special gathering beside the schedule.",
+    "url": "/history/"
+  },
+  "house": {
+    "name": "Paper Lantern Cottage",
+    "address": "An imaginary cottage in fictional Cedar Bay. No real address or booking.",
+    "beds": 5,
+    "maxGuests": 10,
+    "amenities": [
+      "Covered porch",
+      "Shared kitchen",
+      "Board-game shelf",
+      "Outdoor rinse station"
+    ],
+    "rules": [
+      "Leave sandy shoes by the door",
+      "Label anything in the shared fridge",
+      "Keep the porch quiet after 10 PM"
+    ]
+  }
+}

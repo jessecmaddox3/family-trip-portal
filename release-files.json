@@ -53,6 +53,7 @@
   "release-files.json",
   "scripts/build-release.py",
   "scripts/check-build.ts",
+  "scripts/check-launchers.py",
   "scripts/collect-notices.py",
   "scripts/fetch-tides.ts",
   "scripts/make-demo.ts",

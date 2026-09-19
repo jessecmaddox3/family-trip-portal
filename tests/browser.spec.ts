@@ -157,6 +157,12 @@ test("the trip timezone controls chart labels in different browser zones", async
     await page
       .getByRole("heading", { name: "Organizer's Timing Preferences" })
       .waitFor();
+    // Recharts mounts its responsive SVG after the server-rendered headings.
+    // Compare complete charts, regardless of how quickly each context lays out.
+    await expect(
+      page.getByRole("img", { name: /^Tide chart for/ })
+        .getByText("12:00 AM GMT-4", { exact: true }).first(),
+    ).toHaveText("12:00 AM GMT-4");
     rendered.push(await page.locator("#main-content").innerText());
     await context.close();
   }

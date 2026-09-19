@@ -25,6 +25,14 @@ jobs:
       - run: npm run typecheck
       - run: npm run lint
       - run: npm run build
+      - uses: actions/setup-python@v5
+        if: runner.os != 'Linux'
+        with:
+          python-version: "3.13"
+      - run: python scripts/build-release.py
+        if: runner.os != 'Linux'
+      - run: python scripts/check-launchers.py
+        if: runner.os != 'Linux'
   browser-package:
     runs-on: ubuntu-latest
     env:
